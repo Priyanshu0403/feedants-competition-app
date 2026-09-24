@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Feedants Competition",
+    "slug": "feedants-competition-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.feedants.competitionapp"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Feedants to access your photos to upload your competition submission."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
